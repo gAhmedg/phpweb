@@ -1,1 +1,1 @@
-<?php $RDS_URL="localhost:3306"; $RDS_DB="database"; $RDS_user="username"; $RDS_pwd="password"; ?>
+<?php $RDS_URL=""; $RDS_DB=""; $RDS_user=""; $RDS_pwd=""; ?>
