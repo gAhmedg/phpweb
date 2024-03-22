@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+   webserver:
+     build: 
+      context: .
+      dockerfile: Containerfile
+     ports:
+      - "80:80"
+
+
+   db:    
+      image: mysql  
+      # volumes: 
+      #   -    mysql-data:/var/lib/mysql
+      environment:  
+       MYSQL_ROOT_PASSWORD: password
+       MYSQL_DATABASE: database 
+       MYSQL_USER: username
+       MYSQL_PASSWORD: password
